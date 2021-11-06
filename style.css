@@ -12,6 +12,7 @@ body{
     align-items: center;
     justify-content: center;
     margin: 0;
+    overflow-x: hidden;
 }
 
 h1{
@@ -31,7 +32,6 @@ h1{
     box-shadow: 2px 4px 5px rgba(0,0,0, 0.3);
     transform: translateX(300%);
     transition: transform 0.4s ease;
-    overflow-x: hidden;
 }
 
 .box:nth-of-type(even){
@@ -45,3 +45,8 @@ h1{
 .box h2{
     font-size: 45px;
 }
+
+element.style {
+    background-size: 100%;
+}
+
